@@ -1,56 +1,46 @@
-# Dev Stack — React Assignment
+# Dev Stack React Assignment
 
-Responsive React implementation of the supplied Dev Stack UI.
 
-## Features
+ Features
 - React + Vite
-- Local JSON data loaded with `fetch()`
-- 12 technology cards
-- Add to Stack and duplicate protection
 - Remove one item and Remove All
-- React Toastify alerts
 - Loading state
-- Sticky desktop navbar
-- Mobile hamburger navigation
-- Responsive 3 / 2 / 1-column layouts
-- Shared orange → pink → violet gradient variable
-- Footer with Product / Company / Legal groups
 
-## Run
+ Technology that i Use
+React.js
+DaisyUI
+TypeScript / JavaScript (ES6+)
+React-Toastify
+JSON
+Vite
 
-```bash
-npm install
-npm run dev
-```
 
-## 9 meaningful Git commits
 
-```bash
-git init
-git add .
-git commit -m "chore: initialize React Vite project"
+1. What is JSX, and why is it used in React?
 
-git add .
-git commit -m "feat: add sticky responsive navbar"
+JSX is a syntax that lets us write HTML-like code inside JavaScript. It makes React code easier to read and helps us create UI components.
 
-git add .
-git commit -m "feat: build hero banner and brand theme"
+2. What is the difference between props and state?
 
-git add .
-git commit -m "feat: load technologies from local JSON"
+Props are data passed from a parent component to a child component.
+State is data managed inside a component that can change over time.
 
-git add .
-git commit -m "feat: create responsive technology cards"
+3. What does the useState hook do, and where did you use it in this project?
 
-git add .
-git commit -m "feat: implement stack add and remove actions"
+useState creates and updates data inside a component. I used it to store the technology list, selected stack items, loading status, and menu state.
 
-git add .
-git commit -m "feat: add toast notifications and loading state"
+4. What does the useEffect hook do, and why did you need it to load the JSON data?
 
-git add .
-git commit -m "feat: add responsive footer and info sections"
+useEffect runs code when a component loads or when certain data changes. I used it to fetch and load the technology data from the JSON file when the website starts.
 
-git add .
-git commit -m "style: polish responsive Dev Stack UI"
-```
+5. Why does every item in a .map() list need a unique key prop?
+
+A unique key helps React identify each item in a list. It allows React to update only the items that changed.
+
+6. What is conditional rendering? Show one place you used it.
+
+Conditional rendering means showing different content based on a condition.
+
+7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
+
+A parent sends data to a child using props. A child can send information back by calling a function passed to it through props.
