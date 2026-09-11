@@ -10,14 +10,14 @@
     "badge": "Popular"
   },
   {
-    "id": "vue",
-    "name": "Vue.js",
-    "category": "Frontend",
-    "description": "An approachable, performant, and versatile framework for building web user interfaces.",
-    "icon": "https://icon.icepanel.io/Technology/svg/Vue.js.svg",
-    "rating": 4.8,
-    "difficulty": "Beginner-Friendly",
-    "badge": "Versatile"
+    // "id": "vue",
+    // "name": "Vue.js",
+    // "category": "Frontend",
+    // "description": "An approachable, performant, and versatile framework for building web user interfaces.",
+    // "icon": "https://icon.icepanel.io/Technology/svg/Vue.js.svg",
+    // "rating": 4.8,
+    // "difficulty": "Beginner-Friendly",
+    // "badge": "Versatile"
   },
   {
     "id": "svelte",
