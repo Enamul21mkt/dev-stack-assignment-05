@@ -6,7 +6,7 @@
 - Remove one item and Remove All
 - Loading state
 
- Technology that i Use
+Technology that i Use
 React.js
 DaisyUI
 TypeScript / JavaScript (ES6+)
